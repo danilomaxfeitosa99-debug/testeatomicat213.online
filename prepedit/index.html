@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Metti in pausa e conferma l'età - Salute maschile</title>
+  <style>
+    @keyframes marquee {
+      0% {
+        transform: translateX(100%);
+      }
+
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    .animate-marquee {
+      display: inline-flex;
+      animation: marquee 15s linear infinite;
+    }
+  </style>
+</head>
+<!----------------------------------------- | Script Aqui Nessa Parte Aqui | ----------------------------------------->
+
+<body class="bg-black text-white">
+  <div class="flex justify-center bg-red-500 items-center w-full h-12">
+    <p class="text-2xl sm:text-3xl">ATTENDERE PREGO...</p>
+  </div>
+  <!-- Header -->
+  <div class="flex flex-col text-white items-center gap-4 justify-center text-xl sm:text-2xl w-full mt-12 px-6">
+    <p class="text-red-500 text-center"> Questa presentazione sulla salute degli uomini (40+) inizierà tra <span
+        id="counter">02:00</span>
+    </p>
+    <p class="text-center">Si prega di confermare la tua età per procedere...</p>
+    <a href="https://lp.edtstit.online/preclick/">
+      <img src="images/image.webp" alt="presell" class="w-64 sm:w-80">
+    </a>
+    <button class="bg-yellow-500 w-64 sm:w-80 py-4 mt-4 font-bold text-black animate rounded-md">
+      <a href="https://google.com">SÌ, HO PIÙ DI 40 ANNI >></a>
+    </button>
+  </div>
+  <!-- Marquee -->
+  <div class="overflow-hidden w-full mt-12">
+    <div class="flex animate-marquee whitespace-nowrap text-red-500 text-lg font-semibold">
+      <p class="mx-8">I posti sono limitati.</p>
+      <p class="mx-8">I posti sono limitati.</p>
+      <p class="mx-8">I posti sono limitati.</p>
+      <p class="mx-8">I posti sono limitati.</p>
+      <p class="mx-8">I posti sono limitati.</p>
+      <p class="mx-8">I posti sono limitati.</p>
+      <p class="mx-8">I posti sono limitati.</p>
+      <p class="mx-8">I posti sono limitati.</p>
+    </div>
+  </div>
+  <!-- Section 1 -->
+  <div
+    class="esconde flex flex-col md:flex-row justify-around items-center px-6 md:px-16 lg:px-32 w-full mt-12 py-12 bg-slate-900 gap-8">
+    <div class="w-full md:w-1/2">
+      <p class="text-2xl">Perché questo è rilevante per gli uomini dai 40 anni in su</p>
+      <p class="text-gray-400 my-2"> Niente trucchi. Focus diretto: routine, abitudini e un discorso chiaro sulla salute maschile. </p>
+      <ul>
+        <li class="flex items-center gap-2">
+          <i data-lucide="check" class="text-green-500"></i> Fondamenti fondamentali: sonno profondo, carburante di qualità, supervisione medica e attività quotidiana.
+        </li>
+        <li class="flex items-center gap-2">
+          <i data-lucide="check" class="text-green-500"></i> Zona senza gergo. Capire il "cosa" e il "perché" senza un dizionario medico.
+        </li>
+        <li class="flex items-center gap-2">
+          <i data-lucide="check" class="text-green-500"></i> Passi sostenibili che si adattano alle tue esigenze di tempo e alla tua storia personale.
+        </li>
+      </ul>
+      <div class="flex flex-wrap justify-center md:justify-between items-center text-gray-400 w-full mt-6 gap-2">
+        <div class="px-2 py-1 border border-dashed border-gray-600 rounded-md"> Educational content </div>
+        <div class="px-2 py-1 border border-dashed border-gray-600 rounded-md"> No medical diagnosis </div>
+        <div class="px-2 py-1 border border-dashed border-gray-600 rounded-md"> Privacy respected </div>
+        <div class="px-2 py-1 border border-dashed border-gray-600 rounded-md"> Mobile friendly </div>
+      </div>
+    </div>
+    <div class="w-full md:w-[40%] flex flex-col px-6 py-4 border rounded-md border-gray-600">
+      <div class="px-2 py-1 mb-2 w-fit text-gray-400 border border-gray-600 text-xs rounded-full"> Quick overview </div>
+      <p>What you'll find</p>
+      <p class="text-gray-400 mt-1"> Contesto sulla salute degli uomini dopo i 40 anni: consigli da seguire con il medico, segnali di allarme e routine efficaci </p>
+      <button class="bg-green-500 w-full py-2 mt-4 rounded-md">
+        <a href="#accordion">See the FAQs</a>
+      </button>
+    </div>
+  </div>
+  <!-- Testimonials -->
+  <div class="esconde flex flex-col justify-center px-6 md:px-16 lg:px-32 w-full my-12">
+    <p class="text-3xl text-center md:text-left">Cosa hanno detto uomini proprio come te</p>
+    <div class="flex flex-col md:flex-row items-center justify-between w-full mt-6 gap-6">
+      <div class="px-6 py-3 border border-gray-600 rounded-md w-full md:w-[32%]">
+        <p>"Diretto al punto. Mi è piaciuto il ritmo."</p>
+        <p class="text-gray-400">-Mike S.</p>
+      </div>
+      <div class="px-6 py-3 border border-gray-600 rounded-md w-full md:w-[32%]">
+        <p>"Mi ha aiutato a capire da dove iniziare."</p>
+        <p class="text-gray-400">-John H.</p>
+      </div>
+      <div class="px-6 py-3 border border-gray-600 rounded-md w-full md:w-[32%]">
+        <p>"Facile da navigare sul mio telefono."</p>
+        <p class="text-gray-400">-Dave L.</p>
+      </div>
+    </div>
+  </div>
+  <!-- About Section -->
+  <div id="about" class="esconde flex flex-col px-6 md:px-16 lg:px-32 w-full bg-slate-900 py-12">
+    <p class="text-3xl mb-4 text-center md:text-left">Informazioni su questa presentazione</p>
+    <p class="text-gray-400"> Questa pagina presell prepara il contesto così puoi guardare il contenuto principale con le giuste informazioni. </p>
+    <div class="flex flex-col md:flex-row justify-between items-stretch w-full mt-6 gap-6">
+      <div class="space-y-2 border border-gray-600 rounded-md p-4 w-full md:w-[49%]">
+        <p>Linee guida editoriali</p>
+        <p class="text-gray-400"> Linguaggio semplice, aspettative realistiche e prossimi passi concreti. </p>
+      </div>
+      <div class="space-y-2 border border-gray-600 rounded-md p-4 w-full md:w-[49%]">
+        <p>Cosa non è</p>
+        <p class="text-gray-400"> Non è un consiglio medico, non è una diagnosi e non è una garanzia di risultati. </p>
+      </div>
+    </div>
+  </div>
+  <!-- Accordion (jﾃ｡ responsivo por padrﾃ｣o) -->
+  <div class="esconde my-16 px-6 md:px-16 lg:px-32">
+    <h2 class="text-3xl font-bold text-center mb-8">Domande Frequenti</h2>
+    <div id="accordion" class="max-w-2xl mx-auto my-8 px-4">
+      <!-- Item 1 -->
+      <div class="border border-gray-300 rounded-lg overflow-hidden">
+        <h3>
+          <button
+            class="w-full flex justify-between items-center px-6 py-4 text-left font-medium bg-white hover:bg-gray-50 accordion-btn"
+            aria-expanded="false" aria-controls="acc-1" id="acc-btn-1">
+            <span class="text-gray-900">Devo pagare per guardare?</span>
+            <svg class="w-5 h-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+        </h3>
+        <div id="acc-1" role="region" aria-labelledby="acc-btn-1"
+          class="accordion-content max-h-0 overflow-hidden transition-all duration-300 bg-gray-50 px-6 text-gray-600">
+          <p class="py-4">No. La presentazione introduttiva è gratuita.</p>
+        </div>
+      </div>
+      <!-- Item 2 -->
+      <div class="border border-gray-300 rounded-lg overflow-hidden mt-4">
+        <h3>
+          <button
+            class="w-full flex justify-between items-center px-6 py-4 text-left font-medium bg-white hover:bg-gray-50 accordion-btn"
+            aria-expanded="false" aria-controls="acc-2" id="acc-btn-2">
+            <span class="text-gray-900">Perché chiedete la conferma dell'età?</span>
+            <svg class="w-5 h-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+        </h3>
+        <div id="acc-2" role="region" aria-labelledby="acc-btn-2"
+          class="accordion-content max-h-0 overflow-hidden transition-all duration-300 bg-gray-50 px-6 text-gray-600">
+          <p class="py-4">Alcuni argomenti sono rivolti a una fascia d'età specifica. La conferma garantisce la migliore esperienza.
+          </p>
+        </div>
+      </div>
+      <!-- Item 3 -->
+      <div class="border border-gray-300 rounded-lg overflow-hidden mt-4">
+        <h3>
+          <button
+            class="w-full flex justify-between items-center px-6 py-4 text-left font-medium bg-white hover:bg-gray-50 accordion-btn"
+            aria-expanded="false" aria-controls="acc-3" id="acc-btn-3">
+            <span class="text-gray-900">I miei dati sono protetti?</span>
+            <svg class="w-5 h-5 transform transition-transform duration-300" xmlns="http://www.w3.org/2000/svg"
+              fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+        </h3>
+        <div id="acc-3" role="region" aria-labelledby="acc-btn-3"
+          class="accordion-content max-h-0 overflow-hidden transition-all duration-300 bg-gray-50 px-6 text-gray-600">
+          <p class="py-4">Gestiamo le informazioni in modo responsabile e in buona fede. Evita di condividere dati personali molto sensibili in questa fase.</p>
+        </div>
+      </div>
+      <!-- (continua igual, apenas traduzido…) -->
+  </footer>
+  <script>
+    (function () {
+      const btns = document.querySelectorAll('#accordion .accordion-btn');
+
+      function closeAll(except = null) {
+        document.querySelectorAll('#accordion .accordion-content').forEach((c) => {
+          if (c !== except) {
+            c.style.maxHeight = null;
+            const b = c.previousElementSibling;
+            if (b) {
+              b.setAttribute('aria-expanded', 'false');
+              const svg = b.querySelector('svg');
+              if (svg) svg.classList.remove('rotate-180');
+            }
+          }
+        });
+      }
+      btns.forEach((btn) => {
+        // click
+        btn.addEventListener('click', () => {
+          const content = btn.parentElement.nextElementSibling;
+          const expanded = btn.getAttribute('aria-expanded') === 'true';
+          if (expanded) {
+            content.style.maxHeight = null;
+            btn.setAttribute('aria-expanded', 'false');
+            btn.querySelector('svg')?.classList.remove('rotate-180');
+          } else {
+            closeAll(content);
+            content.style.maxHeight = content.scrollHeight + 'px';
+            btn.setAttribute('aria-expanded', 'true');
+            btn.querySelector('svg')?.classList.add('rotate-180');
+          }
+        });
+        // keyboard accessibility (Enter / Space)
+        btn.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            btn.click();
+          }
+        });
+      });
+    })();
+  </script>
+  <script>
+    let time = 120;
+    const counter = document.getElementById("counter");
+    const hiddenSections = document.querySelectorAll(".esconder");
+
+    function formatTime(s) {
+      const m = Math.floor(s / 60);
+      const sec = s % 60;
+      return `${m.toString().padStart(2, "0")}:${sec.toString().padStart(2, "0")}`;
+    }
+
+    function startCountdown() {
+      counter.textContent = formatTime(time);
+      const interval = setInterval(() => {
+        time--;
+        counter.textContent = formatTime(time);
+        if (time <= 0) {
+          clearInterval(interval);
+          hiddenSections.forEach((s) => s.classList.remove("esconder"));
+        }
+      }, 1000);
+    }
+    window.onload = startCountdown;
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+  <script type="text/javascript" src="https://lp.edtstit.online/pretrack.js?rtkcmpid=6990b9c939023545f0788bfd"></script>
+</body>
+
+</html>
